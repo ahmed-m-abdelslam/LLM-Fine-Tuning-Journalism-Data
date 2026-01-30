@@ -4,6 +4,9 @@ class Settings(BaseSettings):
     
     HUGGINGFACE_API_KEY: str
     WANDB_API_KEY: str
+
+    OPENAI_API_KEY: str
+    OPENAI_MODEL: str
      
 
   
